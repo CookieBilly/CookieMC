@@ -1,0 +1,17 @@
+name: CookieGameCore
+version: ${project.version}
+main: net.thecookiemc.cookiegamecore.Main
+api-version: 1.16
+authors: [ CookieTom ]
+description: Game Core plugin for thecookiemc.net
+
+commands:
+  vote:
+    usage: /<command>
+    description: Allows you to vote for a specific map before the game starts
+  startvoting:
+    usage: /<command>
+    description: Starts the voting process
+  createteams:
+    usage: /<command>
+    description: Starts the voting process

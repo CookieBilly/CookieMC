@@ -1,0 +1,57 @@
+name: CookieCore
+version: ${project.version}
+main: net.thecookiemc.cookiecore.Main
+authors: [ CookieBilly & CookieTom]
+description: Core plugin for the cookie mc
+website: https://thecookiemc.net
+commands:
+  jump:
+    usage: /<command>
+    description: Jump to another server
+    aliases: [server]
+  ban:
+    usage: /<command>
+    description: Ban a player
+    aliases: [tempban, mute]
+  find:
+    usage: /<command>
+    description: Find player on bungee
+    aliases: [locate]
+  session:
+    usage: /<command>
+    description: Session for a player
+  queue:
+      usage: /<command>
+      description: Queue for a gamemode
+      aliases: [ q ]
+  lobby:
+    usage: /<command>
+    description: Return to the lobby
+    aliases: [ hub, l, exit, getmeoutofhere, leave, quit ]
+  restart:
+    usage: /<command>
+    description: Restart a server
+    aliases: [stop, reboot]
+  history:
+    usage: /<command>
+    description: History of a player
+    aliases: [ph]
+  swap:
+    usage: /<command>
+    description: Swap to a specific lobby
+  nothing:
+    usage: /<command>
+    description: Nothing
+  console:
+    usage: /<command>
+    description: Get link to the server console
+  findme:
+    usage: /<command>
+    description: Finds the server ID of the server you are currently on
+    aliases: [myserver, whereami]
+  testban:
+    usage: /<command>
+    description: Tests bans
+  report:
+    usage: /<command>
+    description: Used to report players

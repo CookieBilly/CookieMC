@@ -1,0 +1,20 @@
+name: CookieHub
+version: ${project.version}
+main: net.thecookiemc.cookiehub.Main
+authors: [ CookieBilly & CookieTom]
+description: Hub plugin for the cookie mc
+website: https://thecookiemc.net
+depend: [CookieCore]
+softdepend:
+  - ProtocolLib
+commands:
+  hi:
+    usage: /<command>
+    description: Replies with hi
+  spawn:
+    usage: /<command>
+    description: Takes you to a game island
+  settings:
+    usage: /<command>
+    description: Takes you to a game island
+    aliases: [profile, me, stats]
